@@ -20,6 +20,9 @@ app.config(['$routeProvider', function ($routeProvider) {
 .when("/view1", {templateUrl: "view1/view1.html", controller: "BlogCtrl"})
 .when("/view2", {templateUrl: "view2/view2.html", controller: "BlogCtrl"})
 .when("/resume", {templateUrl: "view/resume.html", controller: "BlogCtrl"})
+.when("/bootstrap1", {templateUrl: "view/bootstrap1.html", controller: "BlogCtrl"})
+.when("/bootstrap2", {templateUrl: "view/bootstrap2.html", controller: "BlogCtrl"})
+.when("/bootstrap3", {templateUrl: "view/bootstrap3.html", controller: "BlogCtrl"})
 .otherwise("/404", {templateUrl: "view/resume.html", controller: "BlogCtrl"});
 
 
